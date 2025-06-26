@@ -6,8 +6,9 @@ Môi trường này giúp nhanh chóng cài đặt và làm việc với **MySQL
 - Ứng dụng đồ họa chuyên nghiệp: **MySQL Workbench**
 
 Phù hợp để học SQL trên cả **Mac** và **Windows**.
-
 ---
+### b0: Tạo thư mục làm việc: vd mysql-lab
+    Dặt file **docker-compose.yal** tại thư mục này
 ### b1: Cài đặt MySQL Workbench
 [https://www.mysql.com/products/workbench/](https://www.mysql.com/products/workbench/)
 
