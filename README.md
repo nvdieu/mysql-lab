@@ -7,8 +7,6 @@ Môi trường này giúp nhanh chóng cài đặt và làm việc với **MySQL
 
 Phù hợp để học SQL trên cả **Mac** và **Windows**.
 ---
-### b0: Tạo thư mục làm việc: vd mysql-lab
-Dặt file **docker-compose.yal** tại thư mục này
 ### b1: Cài đặt MySQL Workbench
 [https://www.mysql.com/products/workbench/](https://www.mysql.com/products/workbench/)
 
@@ -17,9 +15,10 @@ Tải Docker Desktop tại đây:
 
 [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 
-### b3: Khởi chạy dịch vụ
+### b3: Nếu tải về thì giải nén hoặc clone ta được thư mục:
+    mysql-lab chứa 3 file cần thiết
 Mở terminal (hoặc PowerShell), chạy lệnh:
-
+    CD mysql-ab
     docker compose up -d
 
 ### b4: Chạy MySQL Workbench
