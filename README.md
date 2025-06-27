@@ -34,9 +34,9 @@ Thiết lập:
 
     Port: 3306
 
-    Username: student (hoặc root nếu dùng tài khoản admin)
+    Username: user (hoặc root nếu dùng tài khoản admin)
 
-    Password: student123 (hoặc rootpass nếu dùng root)
+    Password: user123 (hoặc root123 nếu dùng root)
 
     Default Schema: demo_db (có thể để trống cũng được)
 
