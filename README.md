@@ -16,9 +16,13 @@ Tải Docker Desktop tại đây:
 [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 
 ### b3: Nếu tải về thì giải nén hoặc clone ta được thư mục:
-    mysql-lab chứa 3 file cần thiết
+    mysql-lab chứa 3 file cần thiết:
+        .env
+        docker-compose.yml
+        README.md
+        
 Mở terminal (hoặc PowerShell), chạy lệnh:
-    CD mysql-ab
+    CD mysql-lab
     docker compose up -d
 
 ### b4: Chạy MySQL Workbench
