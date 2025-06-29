@@ -16,7 +16,7 @@ Tải Docker Desktop tại đây:
 [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 
 ```bash
-git clone https://github.com/nvdieu/mysql-docker.git
+git clone https://github.com/nvdieu/mysql-lab.git
 cd mysql-lab
 docker compose up -d
 ```
