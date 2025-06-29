@@ -24,7 +24,7 @@ docker compose up -d
 ### b3: Nếu tải về thì giải nén hoặc clone:
 Mở terminal (hoặc PowerShell):
 
-git clone https://github.com/nvdieu/mysql-docker.git
+git clone https://github.com/nvdieu/mysql-lab.git
 cd mysql-lab
 docker compose up -d
 
