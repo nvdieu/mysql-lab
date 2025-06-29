@@ -15,15 +15,18 @@ Tải Docker Desktop tại đây:
 
 [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 
-### b3: Nếu tải về thì giải nén hoặc clone ta được thư mục:
-    mysql-lab chứa 3 file cần thiết:
-        .env
-        docker-compose.yml
-        README.md
-        
-Mở terminal (hoặc PowerShell), chạy lệnh:
-    CD mysql-lab
-    docker compose up -d
+```bash
+git clone https://github.com/nvdieu/mysql-docker.git
+cd mysql-lab
+docker compose up -d
+```
+
+### b3: Nếu tải về thì giải nén hoặc clone:
+Mở terminal (hoặc PowerShell):
+
+git clone https://github.com/nvdieu/mysql-docker.git
+cd mysql-lab
+docker compose up -d
 
 ### b4: Chạy MySQL Workbench
 Tại MySQL Connecttion: 
@@ -37,9 +40,9 @@ Thiết lập:
 
     Port: 3306
 
-    Username: user (hoặc root nếu dùng tài khoản admin)
+    Username: root
 
-    Password: user123 (hoặc root123 nếu dùng root)
+    Password: 1234
 
     Default Schema: demo_db (có thể để trống cũng được)
 
